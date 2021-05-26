@@ -12,29 +12,11 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 
-    <!-- /*<style>
-    body{
-        background: #ce2121;
-    }
-    
-    .navbar-nav{
-        min-height: 33px !important;
-        margin-bottom: 0;
-        border-radius: 5;
-    }
-    
-    .navbar-nave > li > a, navbar-brand{
-        padding-top: 6px !important;
-        padding-bottom: 0 !important;
-        height: 33px;
-    }
-    </style>*/ -->
-
   </head>
 
   <body>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-inverse">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -60,7 +42,56 @@
       </div>
     </nav>
 
+    <header id="header">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-10">
+              <h1><span class="glyphicon glyphicon-cog" aria-hidden="true"></span>Dashboard<small>Manage Your site</small></h1>
+            </div>
+            <div class="col-md-2">
+              <div class="dropdown create">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                  Create content
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                  <li><a href="#">Add Page</a></li>
+                  <li><a href="#">Add Post</a></li>
+                  <li><a href="#">Add User</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+    </header>
 
+    <section id="breadcrumb">
+      <div class="container">
+        <ol class="breadcrumb">
+          <li class="active">Dashboard</li>
+        </ol>
+      </div>
+    </section>
+
+    <setion id="main">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="list-group main">
+              <a href="index.html" class="list-group-item active main-color-bg">
+                Dashboard
+              </a>
+              <a href="pages.html" class="list-group-item">Pages</a>
+              <a href="posts.html" class="list-group-item">Posts</a>
+              <a href="users.html" class="list-group-item">Users</a>
+            </div>
+          </div>
+          <div class="col-md-9">
+
+          </div>
+        </div>
+      </div>
+    </setion>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
