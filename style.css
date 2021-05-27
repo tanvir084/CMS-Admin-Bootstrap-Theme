@@ -77,7 +77,7 @@ body{
   .main-color-bg{
     background-color: #e74c3c !important;
     border-color: #c0392b !important;
-    color: #ffffff;
+    color: #ffffff !important;
   }
 
   /* Header */
@@ -104,6 +104,28 @@ body{
   .breadcrumb a{
       color: #333333;
   }
+
+  /* progress bars */
+ .progress-bar{
+     background: #333333;
+     columns: #ffffff;
+ } 
+
+ /* dash-box */
+
+ .dash-box{
+     text-align: center;
+ }
+
+ /* footer */
+
+ #footer{
+    background: #333333;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-weight: 400;
+ }
   
   
   @media (max-width: 575px) {
